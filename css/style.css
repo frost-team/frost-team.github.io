@@ -341,7 +341,7 @@ section.section h2.sloganmisi {
 ============================= */
 
 #parallax1{	
-	background-image: url(../img/parallax/img1.jpg);
+	background-image: url(../img/parallax/fw2.jpg);
 }
 #parallax2{	
 	background-image: url(../img/parallax/img2.jpg);
@@ -877,6 +877,8 @@ div.cform-response-output {
 #map {
 	height: 500px;
 }
+
+
 /*====================
   Clients
 ==================== */
