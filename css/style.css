@@ -338,23 +338,23 @@ section.section h2.sloganmisi {
 
 
 
-.section-kontaq {
+#section-kontaq {
   position: relative;
   height: 0;
   overflow: hidden;
 }
  
 /* 16x9 Aspect Ratio */
-.section-kontaq-16x9 {
+#section-kontaq-16x9 {
   padding-bottom: 56.25%;
 }
  
 /* 4x3 Aspect Ratio */
-.section-kontaq-4x3 {
+#section-kontaq-4x3 {
   padding-bottom: 75%;
 }
  
-.section-kontaq iframe {
+#section-kontaq iframe {
   position: absolute;
   top:0;
   left: 0;
