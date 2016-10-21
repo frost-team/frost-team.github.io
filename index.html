@@ -415,11 +415,11 @@
 						<div class="cfcorm" id="contact-form">
 
 							<form method="POST" action="http://formspree.io/frostfourth@gmail.com">
-							  <input type="email" name="email" placeholder="Your email">
-							  <textarea name="message" placeholder="Your message"></textarea>
+							  <input type="email" name="email" placeholder="Your email" data-rule="email" data-msg="Please enter a valid email">
+							  <textarea name="message" placeholder="Your message" data-rule="required" data-msg="Please write something for us"></textarea>
 							  <input type="hidden" name="_next" value="//site.io/thanks.html" />
 							  <input type="hidden" name="_subject" value="Hey FROST TEAM ! - New Message for you" />
-							  <button type="submit">Send</button>
+							  <button type="submit" class="btn btn-theme pull-left" >Send Message</button>
 							</form>
 						
 						</div>
