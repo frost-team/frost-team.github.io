@@ -413,15 +413,21 @@
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="cfcorm" id="contact-form">
-								<form method="POST" action="//formspree.io/frostfourth@gmail.com" class="contactForm">
+
+								<div id="sendmessage">
+								 Your message has been sent. Thank you!
+								</div>
+								<form action="//formspree.io/frostfourth@gmail.com" method="post" role="form" class="contactForm">
 								<div class="form-group">
 							 	<label for="email">Your Email</label>
 							  	<input type="email" name="_replyto" placeholder="Your email" data-rule="email" data-msg="Please enter a valid email">
+							  	<div class="validation"></div>
 							 	</div>
 
 							  	<div class="form-group">
 								<label for="message">Message</label>
 							  	<textarea class="form-control" name="message" rows="5" placeholder="Your message" data-rule="required" data-msg="Please write something for us"></textarea>
+							  	<div class="validation"></div>
 							  	</div>
 
 								<input type="hidden" name="_subject" value="Hey FROST TEAM ! - New Message for you" />
