@@ -794,7 +794,7 @@ nav#filter a {
 	z-index: 999;
 }
 
-#contact-form input[type=text],#contact-form input[type=email],input[name="message"] , .contactForm textarea {
+#contact-form input[type=text],#contact-form input[type=email],textarea[name="message"] , .contactForm textarea {
 	width: 100%;
 	background: rgba(227, 231, 228, 1);
 	font-family: 'Open Sans', sans serif;
@@ -804,7 +804,7 @@ nav#filter a {
 	vertical-align: middle;
 	padding:0 10px;
 }
-#contact-form input[type=text]:focus,#contact-form input[type=email]:focus, input[name="message"]:focus , .contactForm textarea:focus {
+#contact-form input[type=text]:focus,#contact-form input[type=email]:focus, textarea[name="message"]:focus , .contactForm textarea:focus {
 	background: rgba(101, 106, 100, 1);
 	color: #eff1ef;
 	box-shadow: none;
