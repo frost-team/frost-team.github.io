@@ -794,6 +794,8 @@ nav#filter a {
 	z-index: 999;
 }
 
+
+/*
 #contact-form input[type=text],#contact-form input[type=email], .contactForm textarea {
 	width: 100%;
 	background: rgba(227, 231, 228, 1);
@@ -818,6 +820,9 @@ nav#filter a {
 	height: 60px;
 	margin-bottom:30px;
 }
+*/
+
+
 #contact-form input[type=submit] {
 	color: #fff;
 	width: 185px;
