@@ -451,6 +451,19 @@ section.featured h2.slogan {
 	font-weight: 900;
 }
 
+section.featured h3.slogan {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+section.featured h5.sloganqu {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
 section.featured h3.sloganqu {
 	color: #fff;
 	font-size: 29px;
@@ -757,7 +770,7 @@ nav#filter a {
 .testimonial h5 {
 	color: #fff;
 	font-size: 30px;
-	font-weight: 900;
+	font-weight: 300;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.5em;
 }	
